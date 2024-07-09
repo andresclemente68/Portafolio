@@ -1,87 +1,121 @@
-html{
+html {
     font-family: sans-serif;
     color: #ccc;
-    
-    
-    
-}
-.titulo{
-    text-align-last: center;
 }
 
-
-body{
-    background-color: #08070e;
+body {
+    background-color: #10083b;
     padding: 50px;
-    
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.navbar{
+.navbar {
     width: 95%;
-    top: 70px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.entrada{
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+    color: #ccc;
+}
+
+.entrada {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-input{
-    width: 1000px;
+input {
+    width: 950px;
     height: 30px;
     font-size: 24px;
     text-align: center;
     border-radius: 25px;
 }
 
-button{
-    width: 50px;
+button {
+    width: 70px;
     height: 35px;
     border-radius: 25px;
+    margin-left: 10px;
 }
 
+.parrafo0 {
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+    grid-column: 1/5;
+}
 
-ul{
+.parrafo1 {
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.parrafo2 {
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.parrafo3 {
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.parrafo4 {
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.parrafo5 {
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.interaccion1 ul {
     list-style-type: none;
     display: flex;
-    justify-content: end;
-    gap: 15px;
-    padding-right: 40px;
-    color: #ccc;
-
-}
-
-
-a:hover{
-    color: rgb(204, 204, 204);
-}
-
-
-a{
-    text-decoration: none;
+    justify-content: space-around;
+    padding: 0;
     color: #ccc;
 }
 
-
-img{
+img {
     width: 50px;
     border-radius: 50%;
 }
 
-.imgInt{
+.imgInt {
     width: 10%;
 }
-
-
-.parrafo1{ 
-   width: 1000px;
-   height: 2000px;
-   background-color: rgb(255, 255,255, 0.13);
-   border: 2px solid #ccc;
-   padding-right: 150px;
-   padding: 100px;
-}
-
-
